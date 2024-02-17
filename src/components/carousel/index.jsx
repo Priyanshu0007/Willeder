@@ -13,7 +13,7 @@ const Carousel = () => {
     return (
         <div className=' carousel-container'>
             { data.map((item,index) => {
-                return <img alt="hero-image" src={`/src/assets/${item}.jpg`} className=' carousel-item'
+                return <img alt={item} src={`/src/assets/${item}.jpg`} className=' carousel-item'
                         style={{transform: `translate(-${currentIndex * 100}%)`}}
                         key={index}></img>})
             }
