@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #FFFFFFD9;
+    border: 1px solid #000000;
+    height:3rem;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    @media only screen and (max-width: 768px) {
+        padding: 1rem 1rem;
+     }
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: Noto Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.3em;
+        text-align: center;
+    }
+    @media only screen and (max-width: 768px) {
+       div{
+        display: none;
+       }
+    }
+}
+.menu-button{
+    // display: none !important;
+    visibility: hidden;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    @media only screen and (max-width: 768px) {
+       visibility: visible;
+       font-size: 3rem;
+       color: #6A45FF;
+       
+    }
+}
