@@ -1,0 +1,85 @@
+.hero{
+    position: relative;
+}
+.hero-logo{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    @media only screen and (max-width: 768px) {
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        top: 20%;
+        left: 15%;
+     }
+}
+.heading{
+    position: absolute;
+    top: 70%;
+    font-family: Noto Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: white;
+    background-color: #6A45FF;
+    width: 100%;
+    @media only screen and (max-width: 768px) {
+        background-color: transparent;
+        font-family: Noto Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        padding: 3rem;
+        top: 40%;
+        width: inherit;
+    }
+}
+.sub-heading{
+    position: absolute;
+    top: 80%;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color:white;
+    padding: 0 4rem;
+    @media only screen and (max-width: 768px) {
+        //styleName: Ja/14px-Regular;
+        font-family: Noto Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        top: 65%;
+    }
+}
+.scroll{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    div:first-child{
+        font-family: Noto Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        color: white;
+    }
+    div:last-child{
+        margin-left: 30px;
+        border-left: 1px solid white;
+        height: 3.5rem;
+    }
+    @media only screen and (max-width: 768px) {
+        left: 45%;
+    }
+}

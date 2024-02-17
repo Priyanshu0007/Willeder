@@ -1,14 +1,19 @@
 .navbar{
+    z-index: 10;
+    width: 100%;
     display: flex;
-    position: sticky;
+    position: fixed;
     top: 0;
     background: #FFFFFFD9;
     border: 1px solid #000000;
     height:3rem;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 1rem 4rem;
+    gap: 25%;
     @media only screen and (max-width: 768px) {
-        padding: 1rem 1rem;
+        gap: 0rem;
+        justify-content: space-around;
+        padding: 1rem 0rem;
      }
 }
 .nav-buttons{
@@ -27,6 +32,7 @@
         text-align: center;
     }
     @media only screen and (max-width: 768px) {
+        gap:0rem;
        div{
         display: none;
        }
