@@ -1,5 +1,5 @@
-import './App.css'
 import Box from './components/box'
+import Footer from './components/footer'
 import Hero from './components/hero'
 import Navbar from './components/navbar'
 import Second from './components/second'
@@ -14,6 +14,7 @@ function App() {
       <Second/>
       <Third/>
       <Box/>
+      <Footer/>
     </>
   )
 }
