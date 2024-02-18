@@ -9,19 +9,20 @@
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
     height:3rem;
     justify-content: flex-start;
-    padding: 1rem 4rem;
+    padding: 0.5rem 3rem;
     gap: 25%;
     @media only screen and (max-width: 768px) {
         gap: 0rem;
         justify-content: space-around;
-        padding: 1rem 0rem;
+        padding: 0.5rem 0rem;
      }
 }
 .nav-buttons{
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 5rem;
     div{
+        width: 90px;
         display: flex;
         flex-direction: column;
         justify-content: center;
