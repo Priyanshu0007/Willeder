@@ -1,4 +1,5 @@
 import './App.css'
+import Box from './components/box'
 import Hero from './components/hero'
 import Navbar from './components/navbar'
 import Second from './components/second'
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Second/>
       <Third/>
+      <Box/>
     </>
   )
 }

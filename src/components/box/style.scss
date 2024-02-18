@@ -1,0 +1,51 @@
+.sectio{
+    height: 60vh;
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .boxs{
+        z-index: 5;
+        display: inline-block;
+        justify-content: center;
+        height: fit-content;
+        width: fit-content;
+        border-top: 75px solid #8BFF54;
+        border-right: 75px solid #E9FF60;
+        border-bottom: 75px solid #FF5252;
+        border-left: 75px solid #6587FF;
+        transition: transform 0.5s, width 0.5s, height 0.5s;
+    }
+    @media only screen and (max-width: 768px) {
+      height: 40vh;
+      .boxs{
+        border-top: 50px solid #8BFF54;
+        border-right: 50px solid #E9FF60;
+        border-bottom: 50px solid #FF5252;
+        border-left: 50px solid #6587FF;
+      }
+    }
+}
+
+.boxs { 
+    animation: rotateAndScale 3s linear infinite;
+  }
+@keyframes rotateAndScale {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    65% {
+      transform: rotate(360deg) scale(1);
+    }
+    85%{
+        transform: rotate(360deg) scale(1.5);
+    }
+    100%{
+        transform: rotate(360deg) scale(1);
+    }
+  }
+  
+
+  
