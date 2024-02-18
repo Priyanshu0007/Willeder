@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero">
         <Carousel/>
         <div className="hero-logo">
-            <img alt="logo" src="/src/assets/hero-logo.svg"/>
+            <img alt="logo" src="/hero-logo.svg"/>
         </div>
         <div className="heading">
           Lorem ipsum dolor sit amet

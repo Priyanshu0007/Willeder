@@ -8,7 +8,7 @@ const Third = () => {
         <div className="over">
             <div className="mobile">
                 <div className="title1">Lorem ipsum</div>
-                <img alt="section-image" src="/src/assets/content-image.jpg" />
+                <img alt="section-image" src="/content-image.jpg" />
             </div>
             <div className="content">
                 <div className="title">Lorem ipsum</div>
